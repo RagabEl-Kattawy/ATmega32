@@ -12,6 +12,8 @@ extern void DIO_vidSetPinDirection(u8 port,u8 pin,u8 direction)
 	/*catch the port*/
 	switch(port)
 	{
+	/*Comment*/
+	
 	case portb:
 		if(direction==input)
 		{
